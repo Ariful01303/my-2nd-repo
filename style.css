@@ -1,11 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 h1{
     color: blue;
     background: red;
     margin: 0 auto;
-    width: 50%;
+  
 }   
 #con{
     background: orange;
     color: rgb(9, 223, 73);
 }
+.kon{
+    
+    background: rgb(57, 10, 224);
+    text-align: center;
 
+}
+.kon li{
+    display: inline-block;
+    
+   
+     
+}
+.kon li a{
+    display: inline-block;
+    color: aliceblue;
+    text-decoration: none;
+
+    padding: 10px;
+    border-right: 1px solid yellow;
+    font-size: 35px;
+ 
+
+}
+.kon li:first-child a{
+    border-left: 1px solid yellow;
+}
